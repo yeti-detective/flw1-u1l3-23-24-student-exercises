@@ -12,6 +12,11 @@ button {
     font-size: 5px;
     cursor: pointer;
     transition: transform 0.3s, background-color 0.3s, font-size 0.3s;
+    background-color: #ff69b4;
+    color: white;
+    padding: 5px;
+    font-size: 16px;
+    border-radius: 25%;
 }
 
 /* 
@@ -20,7 +25,8 @@ button {
     - Set the font size to 18px
 */
 button:hover {
-    
+    background-color: #8b008b;
+    font-size: 18px;
 }
 
 button:active {
